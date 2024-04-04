@@ -1,23 +1,25 @@
-参考：
-https://github.com/github/gitignore/blob/main/Unity.gitignore
+# 概要
 
 以下のignore情報を追加しています
-# VRCSDK Sample Assets
+## Sample Assets
 /[Aa]ssets/Scenes/VRCDefaultWorldScene*
 /[Aa]ssets/UdonSharp*
-# blend1ファイル
+XR/
+## blend1ファイル
 *.blend1
-# VRChat related folder to be ignored
+## VRChat related folder to be ignored
 Assets/Udon/
 Assets/VRChat Examples/
 Assets/VRCSDK
-# Popular editor scripts to be ignored, do not make your udon scripts here
+## 有名外部アセットの無視
 Assets/Samples/
 Assets/Bakery/
 Assets/Editor/
 Assets/UdonSharp/
 Assets/VRWorldToolkit/
-XR/
-# SerializedUdonPrograms
+## SerializedUdonPrograms
 （Udonコンパイル時の自動生成ファイル）
 Assets/SerializedUdonPrograms
+
+# 参考
+https://github.com/github/gitignore/blob/main/Unity.gitignore

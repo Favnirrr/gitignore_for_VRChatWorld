@@ -1,5 +1,5 @@
 # 概要
-VRCahtワールドのgit管理用gitignoreテンプレートです。
+VRChatワールドのgit管理用gitignoreテンプレートです。
 以下のignore情報を追加しています。
 ## Sample Assets
 /[Aa]ssets/Scenes/VRCDefaultWorldScene*

@@ -1,6 +1,6 @@
 # 概要
-
-以下のignore情報を追加しています
+VRCahtワールドのgit管理用gitignoreテンプレートです。
+以下のignore情報を追加しています。
 ## Sample Assets
 /[Aa]ssets/Scenes/VRCDefaultWorldScene*
 /[Aa]ssets/UdonSharp*

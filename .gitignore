@@ -70,3 +70,27 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# -------------------------------------------------
+
+# VRCSDK Sample Assets
+/[Aa]ssets/Scenes/VRCDefaultWorldScene*
+/[Aa]ssets/UdonSharp*
+
+*.blend1
+
+# VRChat related folder to be ignored
+Assets/Udon/
+Assets/VRChat Examples/
+Assets/VRCSDK
+
+# Popular editor scripts to be ignored, do not make your udon scripts here
+Assets/Samples/
+Assets/Bakery/
+Assets/Editor/
+Assets/UdonSharp/
+Assets/VRWorldToolkit/
+XR/
+
+# Ignore SerializedUdonPrograms
+Assets/SerializedUdonPrograms
